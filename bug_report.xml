@@ -2,13 +2,13 @@
 <Environment>Android 12<Environment>
 <Precondition>Application is not open<Precondition>
       <Title>Widget size 1x3, on the main screen, does not display the course in its entirety<Title>
-      <STR> : {
-                    "1" : "Hold the main screen until the tab with widgets appears",
-                    "2" : "Open a tab, find the crypto Price widget",
-                    "3" : "Select widget 1x3, click Add"
-              }
+      <STR> : 
+                    <1> : "Hold the main screen until the tab with widgets appears",
+                    <2> : "Open a tab, find the crypto Price widget",
+                    <3> : "Select widget 1x3, click Add"
+              
       <ER> The cost of all 4 types of cryptocurrencies is displayed correctly<ER>
       <AR> The cost of all 4 types of cryptocurrencies is not displayed in full<AR>
       <Link> None<Link>
       <Comment>If the widget is stretched to the right, and then returned to its original size, the cost is displayed correctly<Comment>
-}      
+     
